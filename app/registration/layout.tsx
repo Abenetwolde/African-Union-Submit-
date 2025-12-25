@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 import Image from "next/image"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -17,19 +17,19 @@ export default function RegistrationLayout({
         <div className="relative flex min-h-screen flex-col font-sans">
             <div className="fixed inset-0 z-0">
                 <Image
-                    src="/hero.png"
+                    src="/hero-new.png"
                     alt="African Union Background"
                     fill
                     className="object-cover"
                     priority
                 />
-                <div className="absolute inset-0 bg-black/40" />
+                <div className="absolute inset-0 bg-black/60" />
             </div>
 
             <SiteHeader />
 
             <main className="relative z-10 flex flex-1 flex-col items-center justify-center p-4 pt-24 pb-8">
-                <div className="w-full max-w-7xl p-0">
+                <div className="w-full max-w-4xl p-0">
                     {children}
                 </div>
             </main>

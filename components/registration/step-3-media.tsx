@@ -89,8 +89,8 @@ export function Step3Media({ onNext, onBack }: { onNext: () => void, onBack: () 
                 <Button onClick={onBack} variant="secondary" className="px-6 gap-2">
                     <ArrowLeft className="w-4 h-4" /> Back
                 </Button>
-                <Button onClick={onNext} className="bg-[#ea7600] hover:bg-[#c96500] px-8 py-6 text-base font-semibold gap-2">
-                    Submit Application <ArrowRight className="w-4 h-4" />
+                <Button onClick={onNext} className="bg-emerald-600 hover:bg-emerald-700 px-8 py-6 text-base font-bold shadow-lg shadow-emerald-600/20 rounded-xl">
+                    Next Step <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
             </div>
         </div>

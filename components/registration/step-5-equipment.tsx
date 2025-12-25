@@ -74,7 +74,7 @@ export function Step5Equipment({ onNext, onBack }: { onNext: () => void, onBack:
                     <Label className="text-xs text-gray-500">Laptop/ Workstation</Label>
                     <Input
                         placeholder="e.g. MacBook Pro 16"
-                    className="bg-gray-50/50 h-11 border-gray-200 shadow-none"
+                        className="bg-gray-50/50 h-11 border-gray-200 shadow-none"
                     />
                 </div>
             </div>
@@ -136,8 +136,8 @@ export function Step5Equipment({ onNext, onBack }: { onNext: () => void, onBack:
                 <Button onClick={onBack} variant="secondary" className="px-6 gap-2">
                     <ArrowLeft className="w-4 h-4" /> Back
                 </Button>
-                <Button onClick={onNext} className="bg-[#ea7600] hover:bg-[#c96500] px-8 py-6 text-base font-semibold gap-2">
-                    Next Step <ArrowRight className="w-4 h-4" />
+                <Button onClick={onNext} className="bg-emerald-600 hover:bg-emerald-700 px-8 py-6 text-base font-bold shadow-lg shadow-emerald-600/20 rounded-xl">
+                    Next Step <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
             </div>
         </div>
